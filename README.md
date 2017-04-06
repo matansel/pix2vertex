@@ -7,7 +7,12 @@ Evaluation code for Unrestricted Facial Geometry Reconstruction Using Image-to-I
 
 ## Setup & Usage
 - Make sure you have <a href="http://torch.ch/docs/getting-started.html">Torch</a> installed on your machine.
+- Install the ```mattorch``` and ```nngraph``` packages.
 
+  ```bash
+  luarocks install mattorch    
+  luarocks install nngraph
+  ```
 - Download the <a href="https://drive.google.com/open?id=0B1j6t9f_-lyrRGhOSnJyVXhvaEU">model files</a> and extract them into the ```models``` directroy.
 
 - To use our code, simply run the ```runme.m``` script in Matlab.
