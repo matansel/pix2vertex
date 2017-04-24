@@ -6,6 +6,7 @@ Evaluation code for Unrestricted Facial Geometry Reconstruction Using Image-to-I
 <img src="imgs/teaser.png" width="900px"/>
 
 ## Setup & Usage
+The project was tested on Ubuntu 14.04 LTS with Matlab R2015b, to run it follow these instructions:
 - Make sure you have <a href="http://torch.ch/docs/getting-started.html">Torch</a> installed on your machine.
 - Install the ```mattorch``` and ```nngraph``` packages.
 
@@ -15,7 +16,7 @@ Evaluation code for Unrestricted Facial Geometry Reconstruction Using Image-to-I
   ```
 - Download the <a href="https://drive.google.com/open?id=0B1j6t9f_-lyrRGhOSnJyVXhvaEU">model files</a> and extract them into the ```models``` directroy.
 
-- To use our code, simply run the ```runme.m``` script in Matlab.
+- Run the ```runme.m``` script in Matlab.
 
 ## Citation
 If you use this code for your research, please cite our paper <a href="https://arxiv.org/pdf/1703.10131.pdf">Unrestricted Facial Geometry Reconstruction Using Image-to-Image Translation</a>:
