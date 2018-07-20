@@ -5,6 +5,10 @@ Evaluation code for Unrestricted Facial Geometry Reconstruction Using Image-to-I
 
 <img src="imgs/teaser.png" width="900px"/>
 
+## Recent Updates
+
+**`2018.07.20`**: Spiltted `postprocess` into the different steps composing the pipeline, changed models to `float` to save space.
+
 ## Setup & Usage
 The project was tested on Ubuntu 14.04 LTS with Matlab R2015b, to run it follow these instructions:
 - Make sure you have <a href="http://torch.ch/docs/getting-started.html">Torch</a> installed on your machine.
@@ -14,7 +18,7 @@ The project was tested on Ubuntu 14.04 LTS with Matlab R2015b, to run it follow 
   luarocks install mattorch    
   luarocks install nngraph
   ```
-- Download the <a href="https://drive.google.com/open?id=0B1j6t9f_-lyrRGhOSnJyVXhvaEU">model files</a> and extract them into the ```models``` directroy.
+- Download the <a href="https://drive.google.com/file/d/1gXroOBUg6bkQdYGytLQ7CyjfI_aH5TJz/view">model files</a> and extract them into the ```models``` directroy.
 
 - Run the ```runme.m``` script in Matlab.
 
