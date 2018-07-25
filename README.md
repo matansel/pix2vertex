@@ -18,7 +18,7 @@ The project was tested on Ubuntu 14.04 LTS with Matlab R2015b, to run it follow 
   luarocks install mattorch    
   luarocks install nngraph
   ```
-- Download the <a href="https://drive.google.com/file/d/1gXroOBUg6bkQdYGytLQ7CyjfI_aH5TJz/view">model files</a> and extract them into the ```models``` directroy.
+- Download the <a href="https://drive.google.com/file/d/1JZLKxqggY1I4ggtx7TFWp_mP-KGywkVK/view">model files</a> and extract them into the ```models``` directroy.
 
 - Run the ```runme.m``` script in Matlab.
 
