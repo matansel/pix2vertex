@@ -6,6 +6,7 @@ Evaluation code for Unrestricted Facial Geometry Reconstruction Using Image-to-I
 <img src="imgs/teaser.png" width="900px"/>
 
 ## Recent Updates
+**`2020.05.07`**: We have released a [PyTorch version](https://github.com/eladrich/pix2vertex.pytorch) of this repository and encourage you to give it a try!
 
 **`2018.07.20`**: Spiltted `postprocess` into the different steps composing the pipeline, changed models to `float` to save space.
 
